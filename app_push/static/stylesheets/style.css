@@ -37,6 +37,7 @@
     margin: 0 auto;
     text-align: center;
     padding: 15px 32px;
+background-color: white;
 }
 
 /* changes button color, size, alignment */
@@ -54,11 +55,15 @@ background-color: #4CAF50; /* Green */
   width: 150px;
 
 }
+/*positions image position down*/
+#img0{
+	position:relative; top:30px;
+}
 /* adds background image and aligns */
 body {
 background: url("recycle2.jpg");
 background-repeat: no-repeat;
-background-size: 1600px 1000px;
+background-size: 1600px 800px;
 }
  
 
