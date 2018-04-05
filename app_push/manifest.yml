@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: waste_sorter_classification
+  host: waste_sorter_classification
+  disk_quota: 1024M
+  services:
+  - Visual-Recognition-TeamG
+  buildpack: python_buildpack
