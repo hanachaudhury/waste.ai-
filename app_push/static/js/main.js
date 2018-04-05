@@ -3,7 +3,7 @@
 // this reads the image that was uploaded by the user 
 $("#file0").on("change", function () {
     let fileReader = new FileReader(),
-        fileType = this.files[0].type;
+        fileType = this.files[0].type; //
     //loads the image on click 
     fileReader.onload = function () {
         if (/^image/.test(fileType)) {   
@@ -11,8 +11,9 @@ $("#file0").on("change", function () {
             $("#img0").removeClass("hide");
         }
     }
-    //displays the file to the user 
+    //for debugging purposes
     console.log(this.files[0]);
+    //the readAsDattaURL is a javascript method that helps to read and load the file 
     fileReader.readAsDataURL(this.files[0]);
 });
 
@@ -36,7 +37,7 @@ $("#analyze_text").on("click", function () {
         success: function (response) {
             $("#loader").fadeOut();
 
-            console.log(response); //displays the response to the user 
+            console.log(response); //for debugging 
 
             $("#results").html("");
             $("#result_text").html("");
