@@ -66,13 +66,13 @@ $("#analyze_text").on("click", function () {
                 + "%</span> confident that this waste is <span class= 'class'>"
                 + classes
                 + "</span></p>");
-
-            $(window).scrollTop($("#results").offset().top);
+    $('#result_text").removeClass('hide")
         }
 
            
 
     });
+   
 
     return false;
 });
