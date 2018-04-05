@@ -18,16 +18,20 @@
 /* style.css
  * This file provides css styles.
  */
+/* changes the font size of the heading to 60px, creates a double underline underneath the heading, changes the color to green
  #head{
 	font-size: 60px;
 	outline-style: double;
 	outline-color: #4CAF50;}
 
+/*changes font size
+
  #h2{
      font-size: 20px;
 
-
  }
+
+/* changes font size, adds padding, aligns text to center
 #result_text {
     font-size: 20px;
     margin: 0 auto;
@@ -35,6 +39,7 @@
     padding: 15px 32px;
 }
 
+?* changes button color, size, alignment
 
 #analyze_text {
 background-color: #4CAF50; /* Green */
@@ -48,7 +53,8 @@ background-color: #4CAF50; /* Green */
   position:relative;top:100px;
   width: 150px;
 
-}	
+}
+/* adds background image and aligns 
 body {
 background: url("recycle.jpg");
 background-repeat: no-repeat;
